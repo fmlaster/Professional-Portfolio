@@ -205,13 +205,9 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--secondary-teal), var(--primary-navy));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    font-size: 1.2rem;
+    object-fit: cover;
     margin: 0 auto;
+    display: block;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
 }

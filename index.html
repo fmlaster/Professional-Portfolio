@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,9 +48,8 @@
     <div class="container">
       <div class="about-content">
         <div class="about-image">
-          <div class="profile-photo">
-            Professional Photo
-            <br><small>Replace with actual headshot</small>
+  <img src="images/headshot.jpeg" alt="Felicia Laster headshot" class="profile-photo">
+</div>
           </div>
         </div>
         <div class="about-text">
@@ -90,22 +90,15 @@
           <div class="project-card featured-project">
             <div class="project-icon"><i class="fas fa-globe-americas"></i></div>
             <h3>Global Nomad Chronicles</h3>
-            <p>A narrative-driven portfolio site inspired by international teaching journeys. Features accessible design, responsive layouts, and storytelling UX to showcase creativity and global perspective.</p>
+            <p>A narrative-driven portfolio site inspired by international teaching journeys across Korea, Saudi Arabia, and the U.S. Features accessible design, responsive layouts, and storytelling UX to showcase creativity and global perspective.</p>
             <div class="project-timeline">Focus: React, Accessibility, UX Storytelling</div>
           </div>
 
           <div class="project-card">
             <div class="project-icon"><i class="fas fa-hand-holding-heart"></i></div>
             <h3>Inclusive Classroom Toolkit</h3>
-            <p>Drag-and-drop suite for SPED teachers featuring visual schedules, token boards, and sensory timers. Designed for accessibility and ease of use in real classrooms.</p>
-            <div class="project-timeline">Focus: React, Accessibility, Drag-and-Drop UI</div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon"><i class="fas fa-comments"></i></div>
-            <h3>Parent-Teacher Communication Hub</h3>
-            <p>Streamlined app for daily updates, messages, and announcements. Features auto-translation, mobile-friendly design, and communication tracking for educators and families.</p>
-            <div class="project-timeline">Focus: Translation API, Responsive UX, Accessibility</div>
+            <p>Drag-and-drop suite for SPED teachers featuring visual schedules, token boards, and sensory timers. Fully WCAG 2.2 compliant and designed for real classroom use.</p>
+            <div class="project-timeline">Focus: React, Drag-and-Drop UI, Accessibility (WCAG 2.2)</div>
           </div>
         </div>
       </div>
@@ -116,60 +109,40 @@
         <div class="projects-grid">
           <div class="project-card featured-project">
             <div class="project-icon"><i class="fas fa-chart-line"></i></div>
-            <h3>Behavior Tracking System (MERN)</h3>
-            <p>Comprehensive system for tracking and visualizing student behaviors. Includes secure login, full CRUD functionality, analytics dashboards, and CSV export features.</p>
-            <div class="project-timeline">Focus: MERN Stack, CRUD, JWT Auth, Data Visualization</div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon"><i class="fas fa-file-alt"></i></div>
-            <h3>SmartIEP Generator (Django + Python)</h3>
-            <p>Automated IEP generator that transforms user input into professional, exportable PDF documents. Simplifies the creation of goals, accommodations, and service logs for educators.</p>
-            <div class="project-timeline">Focus: Django, PDF Generation, Automation</div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon"><i class="fas fa-users"></i></div>
-            <h3>Real-Time Classroom Collaboration Hub</h3>
-            <p>Collaborative platform for teachers to co-create lesson plans in real time. Supports simultaneous editing, chat, and version tracking using WebSockets.</p>
-            <div class="project-timeline">Focus: MERN, WebSockets, Real-Time Sync</div>
+            <h3>Behavior Tracking System</h3>
+            <p>Flagship full-stack application for tracking and visualizing student behaviors. Includes JWT-secured login, full CRUD functionality, analytics dashboards, AI-generated insights, and CSV export.</p>
+            <div class="project-timeline">Focus: MERN Stack, JWT Auth, Data Visualization, AI Insights</div>
           </div>
 
           <div class="project-card">
             <div class="project-icon"><i class="fas fa-pen-nib"></i></div>
             <h3>AI Writing Assistant for Students</h3>
-            <p>AI-powered tool that provides sentence starters, prompts, and scaffolding support for students with IEP writing accommodations. Includes text-to-speech and dyslexia-friendly UI.</p>
-            <div class="project-timeline">Focus: Flask, OpenAI API, Accessibility, Education UX</div>
+            <p>AI-powered scaffolding tool providing sentence starters, prompts, and writing support for students with IEP accommodations. Includes text-to-speech and a dyslexia-friendly UI.</p>
+            <div class="project-timeline">Focus: Flask/Node + React, OpenAI API, Accessibility</div>
           </div>
         </div>
       </div>
 
-      <!-- GROUP III: PYTHON AUTOMATION & TOOLS -->
+      <!-- GROUP III: PYTHON AUTOMATION & SYSTEMS -->
       <div class="projects-category">
-        <h3><i class="fas fa-python"></i> Group III: Python Automation & Tools (Efficiency & Integration)</h3>
+        <h3><i class="fas fa-cogs"></i> Group III: Python Automation & Systems (High-Impact Engineering)</h3>
         <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-icon"><i class="fas fa-cogs"></i></div>
-            <h3>EduTask Automator (CLI)</h3>
-            <p>Python-based automation suite for common school admin tasks such as grading reports, attendance sheets, and certificate generation using Pandas and Jinja2 templates.</p>
-            <div class="project-timeline">Focus: Python CLI, Pandas, Jinja2, Email Automation</div>
+          <div class="project-card featured-project">
+            <div class="project-icon"><i class="fas fa-file-medical-alt"></i></div>
+            <h3>IEP Intelligence Engine</h3>
+            <p>Automated pipeline that transforms messy, unstructured student data into structured, legally compliant IEP reports. Uses RAG-powered NLP for draft generation and pixel-perfect document automation.</p>
+            <div class="project-timeline">Focus: Python (FastAPI), OpenAI API (RAG), Pandas, Python-Docx/ReportLab</div>
           </div>
 
           <div class="project-card">
-            <div class="project-icon"><i class="fas fa-desktop"></i></div>
-            <h3>EduTask Automator Pro (Web Dashboard)</h3>
-            <p>Web-based version of the EduTask Automator. Integrates Google Sheets and Gmail APIs with scheduling automation via Flask and React interface.</p>
-            <div class="project-timeline">Focus: Flask + React, Google APIs, Task Scheduling</div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-icon"><i class="fas fa-briefcase"></i></div>
-            <h3>Teaching Portfolio Generator</h3>
-            <p>Automates the creation of educator portfolios. Scrapes job listings to find trending keywords and generates optimized resumes and HTML portfolios using ReportLab and BeautifulSoup.</p>
-            <div class="project-timeline">Focus: Python, Web Scraping, ReportLab, Automation</div>
+            <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>The Accessibility Sentinel</h3>
+            <p>Automated multi-page WCAG 2.2 auditing system that crawls platforms, applies custom rule-checking algorithms, and fires automated Slack/email alerts when accessibility barriers are detected.</p>
+            <div class="project-timeline">Focus: Python, Playwright/Selenium, BeautifulSoup, Celery/Redis</div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -225,7 +198,7 @@
           <h3>Get In Touch</h3>
           <div class="contact-item">
             <i class="fas fa-envelope"></i>
-            <a href="mailto:fmlasterdev@gmail.com">fmlasterdev@gmail.com</a>
+            <a href="/cdn-cgi/l/email-protection#91f7fcfdf0e2e5f4e3f5f4e7d1f6fcf0f8fdbff2fefc"><span class="__cf_email__" data-cfemail="bddbd0d1dccec9d8cfd9d8cbfddad0dcd4d193ded2d0">[email&#160;protected]</span></a>
           </div>
           <div class="contact-item">
             <i class="fab fa-linkedin"></i>
@@ -267,7 +240,7 @@
         <div class="social-links">
           <a href="https://linkedin.com/in/felicialaster" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/felicialaster" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="mailto:fmlasterdev@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="/cdn-cgi/l/email-protection#b2d4dfded3c1c6d7c0d6d7c4f2d5dfd3dbde9cd1dddf"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
       <p>&copy; 2026 Felicia M. Laster. All rights reserved.</p>
